@@ -11,32 +11,237 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
 
-  <title>goit-js-hw-12</title>
+  <title>My resume</title>
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-  <div class="container">
-    <form class="search-form">
-      <input type="text" class="search-input" name="searchRequest" placeholder="Search images..." autofocus />
-      <button type="submit" class="btn">Search</button>
-    </form>
-  </div>
-  <!-- <div class="loader hidden" id="loader"></div> -->
-  <div class="container">
-    <ul class="gallery-list"></ul>
-  </div>
- 
-  <div class="load-more">
-    <button class="load-more-btn hidden" id="load-more-btn" type="button">Load more</button>
-  </div>
-  <div class="loader hidden" id="loader"></div>
-  <div class="arrow-up-div">
-    <img src="./img/arrow-up.svg" alt="Up Arrow" class="arrow-up" />
+
+  <!-- Wrapper -->
+  <div class="wrapper">
+    <!-- Main content -->
+    <div class="main-content">
+      <!-- My info -->
+      <div class="my-info">
+        <h2 class="my-profession">Front-End Developer</h2>
+        <h1 class="my-name">Liubov Anufriieva</h1>
+        <p class="my-descr">
+          Experienced web developer. Knowledgeable in user interface, testing
+          and debugging processes as well as in design, installation and
+          maintenance of web systems. Also have an experience in accounting,
+          including experience of work in foreign state company. Conscientious
+          and quick learning, highly organized and efficient. Strong
+          interpersonal, communication and motivational skills.
+        </p>
+      </div>
+
+      <!-- My projects -->
+      <div class="my-projects-container">
+        <h3 class="my-projects-title">Projects</h3>
+
+        <ol class="my-projects-list">
+          <li class="my-project-item">
+            <a class="my-project-item-link" href="https://liubovanufriieva.github.io/focus-frame-102/"
+              target="_blank">https://liubovanufriieva.github.io/focus-frame-102/</a>
+            <span class="my-project-item-tech">
+              ............ [ HTML5, CSS3 ]
+            </span>
+          </li>
+          <li class="my-project-item">
+            <a class="my-project-item-link" href="https://liubovanufriieva.github.io/food-project/"
+              target="_blank">https://liubovanufriieva.github.io/food-project/</a>
+            <span class="my-project-item-tech">
+              ..................... [ HTML5, CSS3 ]
+            </span>
+          </li>
+          <li class="my-project-item">
+            <a class="my-project-item-link" href="https://liubovanufriieva.github.io/simply-chocolate/"
+              target="_blank">https://liubovanufriieva.github.io/simply-chocolate/</a>
+            <span class="my-project-item-tech">
+              .......... [ HTML5, CSS3 ]
+            </span>
+          </li>
+
+          <li class="my-project-item">
+            <a class="my-project-item-link" href="https://cryptohub.p.goit.global/"
+              target="_blank">https://cryptohub.p.goit.global/</a>
+            <span class="my-project-item-tech">
+              ................... [ JavaScript ]
+            </span>
+          </li>
+          <li class="my-project-item">
+            <a class="my-project-item-link" href="https://kidslike.p.goit.global/"
+              target="_blank">https://kidslike.p.goit.global/</a>
+            <span class="my-project-item-tech">
+              ............ [ React.js, Node.js ]
+            </span>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Work experience -->
+      <div class="work-experience-section">
+        <h3 class="work-experience-title">Work Experience</h3>
+
+        <!-- Company 1 -->
+        <div class="work-experience-container">
+          <h4 class="work-experience-company">
+            Front-End Developer <span class="company-name">Freelance</span>
+          </h4>
+          <p class="work-experience-period">
+            September 2019 - up to now
+            <span class="work-experience-period-separator">|</span> Ukraine
+          </p>
+
+          <ul class="work-experience-duties-list">
+            <li class="work-experience-duties-item">
+              Worked as a productive and positive team member to design, code,
+              test, report and debug operations;
+            </li>
+            <li class="work-experience-duties-item">
+              Managed front-end and back-end development in the Portfolio
+              Analyst, Employee Track and Account Management systems;
+            </li>
+            <li class="work-experience-duties-item">
+              Successfully diagnosed and fixed website problems, including
+              broken links, typographical errors and formatting issues;
+            </li>
+            <li class="work-experience-duties-item">
+              Helped to achieve a consistent look and visual themes across the
+              website by promoting uniform fonts, images and layout.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Company 2 -->
+        <div class="work-experience-container">
+          <h4 class="work-experience-company-2">
+            Accounts Assistant <span class="company-name">Agora ltd</span>
+          </h4>
+          <p class="work-experience-period">
+            March 2015 - October 2018
+            <span class="work-experience-period-separator">|</span> Ukraine
+          </p>
+          <ul class="work-experience-duties-list">
+            <li class="work-experience-duties-item">General bookkeeping;</li>
+            <li class="work-experience-duties-item">
+              Preparing all payment and bank documents;
+            </li>
+            <li class="work-experience-duties-item">
+              Generating financial reports;
+            </li>
+            <li class="work-experience-duties-item">
+              Inventory effecting and analysis.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Company 3 -->
+        <div class="work-experience-container">
+          <h4 class="work-experience-company-3">
+            Finance Assistant
+            <span class="company-name">Embassy of Nigeria in Ukraine</span>
+          </h4>
+          <p class="work-experience-period">
+            January 2010 - February 2015
+            <span class="work-experience-period-separator">|</span> Ukraine
+          </p>
+          <ul class="work-experience-duties-list">
+            <li class="work-experience-duties-item">
+              Keeping up of general accounting;
+            </li>
+            <li class="work-experience-duties-item">
+              Settle of all expenditures of the Mission according to the
+              established classification;
+            </li>
+            <li class="work-experience-duties-item">
+              Interacting with the official authorities and partners;
+            </li>
+            <li class="work-experience-duties-item">
+              Effecting the insurance of the cars and properties.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div>
+        <h3 class="my-education-title">Education</h3>
+        <div>
+          <p>
+            <span class="my-education-item">
+              NTUU "KYIV POLYTECHNIC INSTITUTE"</span>
+          </p>
+          <p class="my-education-item-spec">
+            Management and Marketing: Master of economic science
+          </p>
+          <p class="my-education-period">
+            September 2004 - June 2010
+            <span class="my-education-period-separator">|</span> Ukraine
+          </p>
+          <p>
+            <span class="my-education-item"> GoIT SCHOOL</span>
+          </p>
+          <p class="my-education-item-spec">Fullstack Developer: Junior</p>
+          <p class="my-education-period">
+            November 2023 - September 2024
+            <span class="my-education-period-separator">|</span> Ukraine
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="img-container">
+        <img class="my-foto" src="img/MyFoto.jpeg" alt="My foto" width="370" />
+      </div>
+
+      <div class="sidebar-content">
+        <!-- My contacts -->
+        <div class="contacts-container">
+          <h3 class="contacts-title">Contacts</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">C:</span>
+            <a class="contacts-link" href="tel:+380663683975">+380663683975</a>
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type">E:</span>
+            <a class="contacts-link" href="malto:lyuzika@gmail.com">lyuzika@gmail.com</a>
+          </p>
+        </div>
+
+        <!-- Tech skills -->
+        <div class="skills-container">
+          <h3 class="skills-title">Tech skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">HTML5</li>
+            <li class="skills-list-item">CSS3</li>
+            <li class="skills-list-item">GIT</li>
+            <li class="skills-list-item">WebPack</li>
+            <li class="skills-list-item">JavaScript</li>
+            <li class="skills-list-item">React.js</li>
+            <li class="skills-list-item">Node.js</li>
+          </ul>
+        </div>
+
+        <!-- Soft skills -->
+        <div class="skills-container">
+          <h3 class="skills-title">Soft skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">Scrum</li>
+            <li class="skills-list-item">Agile</li>
+            <li class="skills-list-item">GTD</li>
+            <li class="skills-list-item">Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
   </div>
 
+
   <script type="module" src="./main.js"></script>
-</body>
+
 </body>
 
 </html>
